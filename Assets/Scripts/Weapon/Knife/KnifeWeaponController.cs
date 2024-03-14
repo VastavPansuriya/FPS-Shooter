@@ -8,5 +8,9 @@ namespace FPSShooter.Weapon.Knife
 {
     public class KnifeWeaponController : WeaponController
     {
+        public KnifeWeaponController(WeaponModel model) : base(model)
+        {
+
+        }
     }
 }
